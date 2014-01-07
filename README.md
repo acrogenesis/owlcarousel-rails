@@ -33,14 +33,20 @@ See what Owl can do:
 Load jQuery(1.7+) and include Owl Carousel plugin files
 
 ```ruby
-#add to your application.js
-//= require owl.carousel
+#add to your Gemfile
 
-#add to your application.css
+gem 'owlcarousel-rails'
+```
+
+add to your application.js
+```//= require owl.carousel```
+
+add to your application.css
+````
 *= require owl.carousel
 *= require owl.theme
+````
 
-```
 ### 2.Set up your HTML
 You don't need any special markup. All you need is to wrap your divs inside the container element <div class="owl-carousel">. Class "owl-carousel" is mandatory to apply proper styles that come from owl.carousel.css file.
 
