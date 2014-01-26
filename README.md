@@ -14,7 +14,7 @@ Touch enabled jQuery plugin that lets you create beautiful responsive carousel s
 * Multiple Sliders
 * CSS3 3d Transitions
 * Custimizable controls
-* JSON 
+* JSON
 * Custom events
 * Helpful callbacks
 
