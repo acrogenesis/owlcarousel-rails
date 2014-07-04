@@ -1,5 +1,5 @@
 /*
- *  jQuery OwlCarousel v1.3.2
+ *  jQuery OwlCarousel v1.3.3
  *
  *  Copyright (c) 2013 Bartosz Wojciechowski
  *  http://www.owlgraphic.com/owlcarousel/
@@ -65,8 +65,10 @@ if (typeof Object.create !== "function") {
         logIn : function () {
             var base = this;
 
-            base.$elem.data("owl-originalStyles", base.$elem.attr("style"))
-                      .data("owl-originalClasses", base.$elem.attr("class"));
+            base.$elem.data({
+                "owl-originalStyles": base.$elem.attr("style"),
+                "owl-originalClasses": base.$elem.attr("class")
+            });
 
             base.$elem.css({opacity: 0});
             base.orignalItems = base.options.items;
@@ -1163,7 +1165,9 @@ if (typeof Object.create !== "function") {
                     follow = true;
                 }
                 if (follow && itemNumber < base.currentItem + base.options.items && $lazyImg.length) {
-                    base.lazyPreload($item, $lazyImg);
+                    $lazyImg.each(function() {
+                        base.lazyPreload($item, $(this));
+                    });
                 }
             }
         },
@@ -1371,9 +1375,10 @@ if (typeof Object.create !== "function") {
                 }
             }
             base.clearEvents();
-            base.$elem
-                .attr("style", base.$elem.data("owl-originalStyles") || "")
-                .attr("class", base.$elem.data("owl-originalClasses"));
+            base.$elem.attr({
+                style: base.$elem.data("owl-originalStyles") || "",
+                class: base.$elem.data("owl-originalClasses")
+            });
         },
 
         destroy : function () {
