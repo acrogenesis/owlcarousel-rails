@@ -72,7 +72,7 @@ $(".owl-carousel").owlCarousel();
 ### 4. For more details visit [OwlCarousel landing page](http://owlgraphic.com/owlcarousel)
 ##### Changelog available [here](http://owlgraphic.com/owlcarousel/changelog.html)
 
-Looking for OwlCarousel2?
+Looking for [OwlCarousel2](https://github.com/OwlFonk/OwlCarousel2)?
 ------------
 
 Use branch OwlCarousel2
