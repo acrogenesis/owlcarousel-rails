@@ -1201,7 +1201,7 @@ if (typeof Object.create !== "function") {
                 iterations += 1;
                 if (base.completeImg($lazyImg.get(0)) || isBackgroundImg === true) {
                     showImage();
-                } else if (iterations <= 100) {//if image loads in less than 10 seconds 
+                } else if (iterations <= 100) {//if image loads in less than 10 seconds
                     window.setTimeout(checkLazyImage, 100);
                 } else {
                     showImage();
@@ -1230,7 +1230,7 @@ if (typeof Object.create !== "function") {
                 iterations += 1;
                 if (base.completeImg($currentimg.get(0))) {
                     addHeight();
-                } else if (iterations <= 100) { //if image loads in less than 10 seconds 
+                } else if (iterations <= 100) { //if image loads in less than 10 seconds
                     window.setTimeout(checkImage, 100);
                 } else {
                     base.wrapperOuter.css("height", ""); //Else remove height attribute
@@ -1376,8 +1376,8 @@ if (typeof Object.create !== "function") {
             }
             base.clearEvents();
             base.$elem.attr({
-                style: base.$elem.data("owl-originalStyles") || "",
-                class: base.$elem.data("owl-originalClasses")
+                "style": base.$elem.data("owl-originalStyles") || "",
+                "class": base.$elem.data("owl-originalClasses")
             });
         },
 
