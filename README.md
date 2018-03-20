@@ -77,7 +77,7 @@ Looking for [OwlCarousel2](https://github.com/OwlFonk/OwlCarousel2)?
 
 Use branch OwlCarousel2
 ```ruby
-gem 'owlcarousel-rails', github: 'acrogenesis/owlcarousel-rails', branch: 'OwlCarousel2'
+gem 'owlcarousel-rails', github: 'acrogenesis/owlcarousel-rails', branch: 'master'
 ```
 Use at your own risk!
 
