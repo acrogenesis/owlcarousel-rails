@@ -1,9 +1,9 @@
 OwlCarousel-rails
 ============
 
-This gem bundles the contents of [OwlCarousel](https://github.com/OwlFonk/OwlCarousel) from OwlFonk
+This gem bundles the contents of [OwlCarousel](https://github.com/OwlCarousel2/OwlCarousel2) from OwlFonk
 
-Touch enabled jQuery plugin that lets you create beautiful responsive carousel slider. [Visit Owl Carousel landing page](http://owlgraphic.com/owlcarousel).
+Touch enabled jQuery plugin that lets you create beautiful responsive carousel slider. [Visit Owl Carousel landing page](https://owlcarousel2.github.io/OwlCarousel2/).
 
 ### Features:
 * Responsive
@@ -23,14 +23,14 @@ Touch enabled jQuery plugin that lets you create beautiful responsive carousel s
 
 ### More Demos
 See what Owl can do:
-* [With auto scaling images](http://owlgraphic.com/owlcarousel/demos/images.html)
-* [Full Width](http://owlgraphic.com/owlcarousel/demos/full.html)
-* [Custom Widths](http://owlgraphic.com/owlcarousel/demos/custom.html)
-* [One Item](http://owlgraphic.com/owlcarousel/demos/one.html)
-* [More demos](http://owlgraphic.com/owlcarousel/#more-demos)
+* [Basic](https://owlcarousel2.github.io/OwlCarousel2/demos/basic.html)
+* [Responsive](https://owlcarousel2.github.io/OwlCarousel2/demos/responsive.html)
+* [Center](https://owlcarousel2.github.io/OwlCarousel2/demos/center.html)
+* [Merge](https://owlcarousel2.github.io/OwlCarousel2/demos/merge.html)
+* [All demos](https://owlcarousel2.github.io/OwlCarousel2/demos/demos.html)
 
 ### 1.Getting Started
-Load jQuery(1.7+) and include Owl Carousel plugin files
+Load jQuery(3+) and include Owl Carousel plugin files
 
 add to your Gemfile
 ```ruby
@@ -69,17 +69,10 @@ Now call the Owl initializer function and your carousel is ready.
 ```html
 $(".owl-carousel").owlCarousel();
 ```
-### 4. For more details visit [OwlCarousel landing page](http://owlgraphic.com/owlcarousel)
-##### Changelog available [here](http://owlgraphic.com/owlcarousel/changelog.html)
+### 4. For more details visit [OwlCarousel landing page](https://owlcarousel2.github.io/OwlCarousel2/)
+##### Changelog available [here](https://owlcarousel2.github.io/OwlCarousel2/docs/support-changelog.html)
 
-Looking for [OwlCarousel2](https://github.com/OwlFonk/OwlCarousel2)?
 ------------
-
-Use branch OwlCarousel2
-```ruby
-gem 'owlcarousel-rails', github: 'acrogenesis/owlcarousel-rails', branch: 'master'
-```
-Use at your own risk!
 
 Contributing
 ------------
