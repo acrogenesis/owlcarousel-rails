@@ -37,6 +37,8 @@ add to your Gemfile
 gem 'owlcarousel-rails'
 ```
 
+* Note this gem requires jQuery, be sure to add it as a dependency on your Gemfile or on wepack.
+
 add to your application.js
 ```ruby
 //= require owl.carousel
