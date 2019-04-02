@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.version     = Owlcarousel::Rails::VERSION
   gem.authors     = ["OwlFonk", "Adrian Rangel"]
   gem.email       = ["adrian.rangel@gmail.com"]
-  gem.homepage    = "http://owlgraphic.com/owlcarousel/"
+  gem.homepage    = "https://github.com/acrogenesis/owlcarousel-rails"
   gem.summary     = %q{Owl Carousel. Touch enabled jQuery plugin that lets you create beautiful responsive carousel slider.}
   gem.description = %q{Owl Carousel. Touch enabled jQuery plugin that lets you create beautiful responsive carousel slider.}
   gem.license     = "MIT"
